@@ -1,0 +1,36 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Builds
+/build/
+
+# Temporary files
+*.log
+*.out
+*.test
+
+# Dependency directories
+/vendor/
+/Godeps/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Compiled Go code
+*.test
+*.prof
+
+# Output of the go coverage tool
+*.out
+*.out.*
+
+# Project-specific configs
+.profile-api.yml
+
+# Binary
+profile-api
